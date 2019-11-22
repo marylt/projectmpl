@@ -4,19 +4,18 @@ import csv
 x = []
 y = []
 
-# loading csv file into dataframe
+# loading csv file into csvreader:
 with open('vgsales.csv', 'r') as data:
     reader = csv.reader(data, delimiter=',')
-    sortedreader = sorted(reader, key=lambda r: r[10], reverse=True)
-    counter = 1
-    for r in sortedreader:
+    # establish counter:
+    counter = 0
+    for r in reader:
         if (r[5]) != 'Publisher':
             x.append(r[5])
             y.append(r[10])
             counter += 1
-            if counter == 10:
+            if counter == 30:
                 break
-# df sorted by sales and publisher
 
 plt.bar(x, y, color='r', edgecolor='b')
 plt.xlabel('Publisher')
