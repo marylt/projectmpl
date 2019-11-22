@@ -31,4 +31,4 @@ The dataset for Video Game Sales in CSV file (https://www.kaggle.com/gregorut/vi
 - __Game and Global Sales.py__: This code will first read the data of the video game sales .csv file into a handle named 'data.' A for loop created for that sorted data will append the first 5 most popular games in global sales. This will show the top games sold in global sales. The matplotlib.pyplot (shortened as plt) function is used to create a bar plot that shows the global top 5 games.
   - Bar plot created, click for full image(s):
   ![Imgur](https://imgur.com/ny8Q0tS.png)
-        - The top five selling games globally are Pokemon Red/Pokemon Blue (topping at 82.74 million sales), Wii Sports Resort, Mario Kart Wii Game, Super Mario Bros, and Wii Sports (starting at 31.37 million sales)
+        - The top five selling games globally are Pokemon Red/Pokemon Blue (topping at 82.74 million sales), Wii Sports Resort, Mario Kart Wii Game, Super Mario Bros, and Wii Sports (starting directly at 31.37 million sales not 0).
