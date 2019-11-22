@@ -11,3 +11,6 @@ Define the scope for the project -- what are you trying to accomplish, and what 
 - The scope of this project is to successfully learn and utilize matplotlib in Python. An objective is to identify and plot at least one relationship between two entities in the dataset. Examples of things not in our scope include creating our own plotting libraries, creating queries with sqlite3, and using regional expressions.
 
 For more information on matplotlib, visit: https://matplotlib.org/
+
+Defining each .py file:
+- Genre and Country.py: This code will first read the data of the video game sales .csv file into a data frame using pandas. Then, the data will be sorted by (country_Sales) and (Genre), descending. This will show the top genres sold in each country. This is done for Japan, North America, and Europe. The matplotlib.pyplot (shortened as plt) function is used to create a scatter plot for each country.
