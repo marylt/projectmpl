@@ -23,7 +23,12 @@ The dataset for Video Game Sales in CSV file (https://www.kaggle.com/gregorut/vi
 ![Imgur](https://imgur.com/rWi360e.png)
         - The top three genres in Europe are Sports, Racing, and Simulation.
 
-- __Publisher and Global Sales.py__: This code will first read the data of the video game sales .csv file into a handle named 'data.' A for loop created for that sorted data will append the first 5 most popular game publishers in global sales. This will show the top publishers sold in global sales. The matplotlib.pyplot (shortened as plt) function is used to create a histogram that shows the global top 5 game publishers.
+- __Publisher and Global Sales.py__: This code will first read the data of the video game sales .csv file into a handle named 'data.' A for loop created for that sorted data will append the first 5 most popular game publishers in global sales. This will show the top publishers sold in global sales. The matplotlib.pyplot (shortened as plt) function is used to create a bar plot that shows the global top 5 game publishers.
   - Bar plot created, click for full image(s):
   ![Imgur](https://imgur.com/M6kpjm7.png)
         - The top five global gaming publishers are Nintendo, Activision, Sony Computer Entertainment, Take-Two Interactive, and Microsoft Game Studios.
+
+- __Game and Global Sales.py__: This code will first read the data of the video game sales .csv file into a handle named 'data.' A for loop created for that sorted data will append the first 5 most popular games in global sales. This will show the top games sold in global sales. The matplotlib.pyplot (shortened as plt) function is used to create a bar plot that shows the global top 5 games.
+  - Bar plot created, click for full image(s):
+  ![Imgur](https://imgur.com/ny8Q0tS.png)
+        - The top five selling games globally are Pokemon Red/Pokemon Blue (topping at 82.74 million sales), Wii Sports Resort, Mario Kart Wii Game, Super Mario Bros, and Wii Sports (starting at 31.37 million sales)
