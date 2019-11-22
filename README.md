@@ -17,5 +17,8 @@ The dataset for Video Game Sales in CSV file (https://www.kaggle.com/gregorut/vi
 - __Genre and Country.py__: This code will first read the data of the video game sales .csv file into a data frame using pandas. Then, the data will be sorted by (Country_Sales) and (Genre), descending. This will show the top genres sold in each country. This is done for Japan, North America, and Europe. The matplotlib.pyplot (shortened as plt) function is used to create a scatter plot for each country.
   - Scatter plots created (JP, NA, EU), click for full image(s):
 ![Imgur](https://imgur.com/otbcxEv.png)
+    - The top three genres in Japan are Role-Playing, Platform, and Simulation.
 ![Imgur](https://imgur.com/nhFFL9C.png)
+    - The top three genres in North America are Sports, Platform, and Shooting.
 ![Imgur](https://imgur.com/rWi360e.png)
+    - The top three genres in Europe are Sports, Racing, and Simulation.
