@@ -22,3 +22,8 @@ The dataset for Video Game Sales in CSV file (https://www.kaggle.com/gregorut/vi
         - The top three genres in North America are Sports, Platform, and Shooting.
 ![Imgur](https://imgur.com/rWi360e.png)
         - The top three genres in Europe are Sports, Racing, and Simulation.
+
+- __Publisher and Global Sales.py__: This code will first read the data of the video game sales .csv file into a handle named 'data.' Then, the data reader will be sorted by (Global_Sales), descending. A for loop created for that sorted data will append the first 5 most popular game publishers in global sales. This will show the top publishers sold in global sales. The matplotlib.pyplot (shortened as plt) function is used to create a histogram that shows the global top 5 game publishers.
+  - Bar plot created, click for full image(s):
+  ![Imgur](https://imgur.com/rBdxopt/png)
+        - The top five global gaming publishers are Activision, Sony Computer Entertainment, Ubisoft, Microsoft Game Studios, and Nintendo.
