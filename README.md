@@ -37,3 +37,8 @@ The dataset for Video Game Sales in CSV file (https://www.kaggle.com/gregorut/vi
   - Pie chart created, click for full image(s):
   ![Imgur](https://imgur.com/wMSBIff.png)
        - The top five platforms in Global_Sales are PS2 (14.1%), XBOX360 (11.0%), PS3 (10.7%), Wii (10.4%), and DS (9.2%). 
+       
+- __Game and NA Sales.py__ : This code will first read the data of the video game sales .csv file into a .reader named data. Then, a counter is established to stop the for loop from appending more than 10 games to the x and y lists. The pyplot function from matplotlib (plt) will be used to create a lollipop plot. This will show the top 10 games sold in North America.
+  - Lollipop chart created, click for full image(s):
+  ![Imgur](https://imgur.com/TiLMJuD.png)
+        - The top five games sold in North America are Wii Sports, Super Mario Bros., Wii Duck Hunt, Tetris, and Mario Kart Wii.
