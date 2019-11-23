@@ -32,3 +32,8 @@ The dataset for Video Game Sales in CSV file (https://www.kaggle.com/gregorut/vi
   - Bar plot created, click for full image(s):
   ![Imgur](https://imgur.com/ny8Q0tS.png)
         - The top five selling games globally are Pokemon Red/Pokemon Blue (topping at 82.74 million sales), Wii Sports Resort, Mario Kart Wii Game, Super Mario Bros, and Wii Sports (starting directly at 31.37 million sales, not 0).
+
+- __Platform and Global Sales.py__: This code will first read the data of the video game sales .csv file into a dataframe named 'df.' A variable named 'sum' is made of a .groupby dataframe, consisting of (Platform) and (Global_Sales). The sum of (Global_Sales) is taken. The matplotlib.pyplot (shortened as plt) function is used to create a pie chart that shows the percentages that each platform has in terms of (Global_Sales).
+  - Pie chart created, click for full image(s):
+  ![Imgur](https://imgur.com/wMSBIff.png)
+        - The top five platforms in Global_Sales are PS2 (14.1%), XBOX360 (11.0%), PS3 (10.7%), Wii (10.4%), and DS (9.2%). 
