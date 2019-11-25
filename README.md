@@ -42,7 +42,7 @@ pip install matplotlib
 - __Platform and Global Sales.py__: This code will first read the data of the video game sales .csv file into a dataframe named 'df.' A variable named 'sum' is made of a .groupby dataframe, consisting of (Platform) and (Global_Sales). The sum of (Global_Sales) is taken. The matplotlib.pyplot (shortened as plt) function is used to create a pie chart that shows the percentages that each platform has in terms of (Global_Sales) for the first 90 games.
   - Pie chart created, click for full image(s):
   ![Imgur](https://imgur.com/qyOt3m3.png)
-       - The top five platforms in Global_Sales are PS2 (14.1%), XBOX360 (11.0%), PS3 (10.7%), Wii (10.4%), and DS (9.2%). 
+       - The top five platforms in Global_Sales for the first 90 games are Wii (23.3%), DS (14.9%), XBOX360 (12.6%), GB(9.3%) and PS3 (8.0%).
        
 - __Game and NA Sales.py__ : This code will first read the data of the video game sales .csv file into a .reader named data. Then, a counter is established to stop the for loop from appending more than 10 games to the x and y lists. The pyplot function from matplotlib (plt) will be used to create a lollipop plot. This will show the top 10 games sold in North America.
   - Lollipop chart created, click for full image(s):
