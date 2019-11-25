@@ -13,7 +13,7 @@ The python library matplotlib is required for this repository. For more informat
 The dataset for Video Game Sales in CSV file (https://www.kaggle.com/gregorut/videogamesales/data#) will be used.
 - Also available as a .csv file in the 'files' section of this repository.
 
-## Testing
+### Testing
 You can run some tests for loading .csv data into lists x and y in the test.py module using [pytest]:
 ```
 pytest test.py
