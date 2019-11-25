@@ -13,7 +13,13 @@ The python library matplotlib is required for this repository. For more informat
 The dataset for Video Game Sales in CSV file (https://www.kaggle.com/gregorut/videogamesales/data#) will be used.
 - Also available as a .csv file in the 'files' section of this repository.
 
-### Defining each .py file:
+### Installation
+Besides needing the latest version of Python installed, you will also need to install the matplotlib Python library. This can be accomplished by running the following code in the terminal you are using:
+```
+pip install matplotlib
+```
+
+#### Defining each .py file:
 - __Genre and Country.py__: This code will first read the data of the video game sales .csv file into a data frame using pandas. Then, the data will be sorted by (Country_Sales) and (Genre), descending. This will show the top genres sold in each country. This is done for Japan, North America, and Europe. The matplotlib.pyplot (shortened as plt) function is used to create a scatter plot for each country.
   - Scatter plots created (JP, NA, EU), click for full image(s):
 ![Imgur](https://imgur.com/otbcxEv.png)
